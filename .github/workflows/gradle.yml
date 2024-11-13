@@ -34,7 +34,7 @@ jobs:
     - name: Build & push Docker image
       uses: mr-smithers-excellent/docker-build-push@v4
       with:
-        image: omkarenjem/gh-actions
+        image: omkarenjem/app1
         registry: docker.io
         tags: v1, latest
         username: ${{ secrets.DOCKER_USERNAME }}
